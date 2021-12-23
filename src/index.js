@@ -6,7 +6,7 @@ const puppeteer = require('puppeteer-extra')
 const url = 'https://fitgirl-repacks.site'
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 puppeteer.use(StealthPlugin());
-const today = new Date()
+const today = new Date();
 
 (async function main() {
     try {
